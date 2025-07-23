@@ -78,22 +78,14 @@ target/your-application-name.jar
 🧪 Run the Application
 You can run the built JAR file using Java 17:
 
-bash
-Copy
-Edit
 java -jar target/your-application-name.jar
 By default, the application will start on http://localhost:8080.
 
 Make sure JAVA_HOME is set to Java 17:
 
-bash
-Copy
-Edit
+
 export JAVA_HOME=/path/to/java17
 export PATH=$JAVA_HOME/bin:$PATH
 If tests fail during mvn clean package and you want to skip tests:
 
-bash
-Copy
-Edit
 mvn clean package -DskipTests
